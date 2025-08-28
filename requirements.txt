@@ -1,0 +1,3 @@
+pytube
+pydub
+yt_dlp
