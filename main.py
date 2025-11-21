@@ -34,7 +34,7 @@ def download_with_yt_dlp(url: str, output_path: str) -> bool:
             'noplaylist': True, 
             'quiet': True, 
             'no_warnings': True,
-            'ffmpeg_location': r"C:\Users\kemal\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.0-full_build\bin",
+            'ffmpeg_location': r"....write here ur host info\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.0-full_build\bin",
         }
 
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
